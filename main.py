@@ -12,11 +12,30 @@ REPORT_URL = "https://telegram.org/support"
 
 # List of Emails for Reporting (Change these)
 email_accounts = [
-    "email1@gmail.com",
-    "email2@yahoo.com",
-    "email3@outlook.com",
-    "email4@mail.com"
+    "imvoid1001@gmail.com",
+    "imvoid1002@gmail.com",
+    "imvoid1003@gmail.com",
+    "imvoid1004@gmail.com"
+    "imvoid1005@gmail.com"
+    "imvoid1006@gmail.com"
+    "imvoid1007@gmail.com"
+    "imvoid1008@gmail.com"
+    "imvoid1009@gmail.com"
+    "imvoid1010@gmail.com"
+    "scorching02@gmail.com"
+    "scorching01@gmail.com"
 ]
+import pyfiglet
+from termcolor import colored
+
+def print_heading(text, color="cyan"):
+    ascii_art = pyfiglet.figlet_format(text)
+    colored_text = colored(ascii_art, color)
+    print(colored_text)
+
+# Example usage
+print_heading("The Massacres", "red")
+
 
 # Load Proxies from proxies.txt
 def load_proxies():
